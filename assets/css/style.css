@@ -1,0 +1,33 @@
+body {
+    background-image: url=("assets/images/little_pluses.png");
+    background-color: #cccccc;
+    
+}
+
+hr {
+    height: 1px;
+    background-color: #cccccc;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    padding: 10px;
+}
+.main {
+    position: relative;
+    margin: auto;
+    text-align: left;
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 3px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaaf;
+}
