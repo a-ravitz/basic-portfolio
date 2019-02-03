@@ -6,10 +6,6 @@ hr {
     height: 1px;
     background-color: #cccccc;
 }
-
-hr:hover {
-    background-color: #4aaaaf;
-}
 /* all the information for the header */
 /* surly some of this is redundant */
 .header {
@@ -128,18 +124,27 @@ footer {
 textarea {
     height: 100px;
     width: 955px;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 input[type=text] {
     width: 955px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 20px;
+    border: 2px solid #ddd;
 }
 
 input[type=submit] {
     background-color: #4aaaaf;
     color: #ffffff;
+    display: inline-block;
     height: 30px;
     width: 80px;
+    border: 2px solid #ddd;
+}
+
+input[type=submit]:hover {
+    background-color: #ffffff;
+    color: #4aaaaf;
 }
