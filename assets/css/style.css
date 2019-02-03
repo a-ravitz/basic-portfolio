@@ -13,6 +13,7 @@ hr {
     margin: auto;
     width: 960px;
 }
+
 header {
     margin: auto;
     position: absolute;
@@ -24,6 +25,7 @@ header {
     height: 50px;
     width: 100%;
 }
+
 .row:after {
     content: "";
     display: table;
@@ -33,8 +35,8 @@ header {
 .column {
     float: left;
     width: 255px;
-
 }
+
 #name {
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: relative;
@@ -55,25 +57,26 @@ li {
     display: inline;
     color: #777777;
 }
+
 a:link {
     text-decoration: none;
     color: #777777;
-  }
+}
   
 a:visited {
     text-decoration: none;
     color: #777777;
-  }
+}
   
 a:hover {
     text-decoration: none;
     color: #777777;
-  }
+}
   
 a:active {
     text-decoration: none;
     color: #777777;
-  }
+}
 /* main paragraph on the about page */
 .main {
     margin: auto;
@@ -97,8 +100,8 @@ img {
     padding-bottom: 15px;
     padding-right: 15px;
     padding-top: 10px;
-
 }
+
 #about {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaaf;
