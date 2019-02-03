@@ -1,40 +1,50 @@
 body {
     background-image: url=("assets/images/little_pluses.png");
     background-color: #cccccc;
-    
 }
-
+/* this is the line under the header */
 hr {
     height: 1px;
     background-color: #cccccc;
 }
-
 .header {
-    position: relative;
+    margin: auto;
+    width: 960px;
+}
+header {
+    margin: auto;
+    position: absolute;
     top: 0;
     right: 0;
     background-color: #ffffff;
     border-color: #cccccc;
     padding: 1%;
-    height: 40px;
+    height: 50px;
     width: 100%;
 }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-#left{ 
-    position: absolute;
-    top; 0
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa4;
-    color: #ffffff;
+.column {
+    float: left;
     width: 320px;
-    padding: 20px;
-}
-#middle {
 
 }
-#right {
-
+#name {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    bottom: 66.5px;
+    right: 6px;
+    text-indent: 17px;
+    background-color: #4aaaaf;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 24px;
 }
+
 .main {
     margin: auto;
     text-align: left;
@@ -45,7 +55,7 @@ hr {
     border-style: solid;
     border-width: 3px;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 120px;
     color: #777777;
 }
 
@@ -58,7 +68,7 @@ img {
     padding-top: 10px;
 
 }
-h1 {
+#about {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaaf;
 }
@@ -73,4 +83,5 @@ footer {
     width: 100%;
     border-top: solid;
     border-top-color: #4aaaaf;
+    border-width: 5px;
 }
