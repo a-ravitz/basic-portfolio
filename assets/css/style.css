@@ -1,13 +1,9 @@
 body {
     background-image: URL("../images/little_pluses.jpg");
 }
-/* this is the line under the header */
-hr {
-    height: 1px;
-    background-color: #cccccc;
-}
+
 /* all the information for the header */
-/* surly some of this is redundant */
+
 .header {
     margin: auto;
     width: 960px;
@@ -20,43 +16,63 @@ header {
     right: 0;
     background-color: #ffffff;
     border-color: #cccccc;
-    padding: 1%;
+    padding: 11px;
     height: 50px;
     width: 100%;
-    overflow: scroll;
-}
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
-
-.column {
+.name {
     float: left;
-    width: 255px;
+    width: 26%;
 }
 
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 550;
+
+}
 #name {
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: relative;
-    bottom: 66.5px;
-    right: 6px;
+    bottom: 60px;
+    right: 10px;
     text-indent: 17px;
     background-color: #4aaaaf;
     color: #ffffff;
     padding-top: 50px;
     padding-bottom: 24px;
 }
+
 /* all the information for the list of links  */
+
+.links {
+    float: left;
+    width: 74%;
+    text-align: right;
+    margin-top: 20px;
+}
+
 li {
     position: relative;
-    left: 491px;
+    left: 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
-    padding: 1px;
     display: inline;
-    color: #777777;
+    color:#777777;
     letter-spacing: 1px;
+}
+
+.i {
+    margin-left: 9px;
+    margin-right: 9px;
+    color: #dddddd;
 }
 
 a:link {
@@ -88,20 +104,23 @@ a:active {
     border-color: #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     padding: 20px;
     margin-top: 120px;
     color: #777777;
     line-height: 1.5;
 }
-
+/* this is the line under the h1 text in the main section */
+hr {
+    height: 1px;
+    background-color: #cccccc;
+}
 img {
     float: left;
     height: 150px;
     width: 150px;
-    padding-bottom: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
 }
 
 #about {
@@ -113,13 +132,21 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    text-align: center;
     background-color: #666666;
     padding: 20px;
     width: 100%;
     border-top: solid;
     border-top-color: #4aaaaf;
     border-width: 5px;
+  
+}
+.copyright {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    font-size: 12px;
+    padding-bottom: 2px;
+    color: #cccccc;
 }
 
 textarea {
