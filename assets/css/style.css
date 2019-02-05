@@ -184,3 +184,38 @@ input[type=submit]:hover {
     background-color: #ffffff;
     color: #4aaaaf;
 }
+
+/* portoflio pictures */
+
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+.column {
+
+    float: left;
+    width: 20%;
+    padding:50px;
+}
+
+.column img {
+    position: relative;
+    height: 175px;
+    width: 225px;
+    margin-bottom: 30px;
+   
+}
+#alaska {
+    position: absolute;
+    color: #4aaaaf;
+    z-index: 2;
+}
+
+#capital {
+    position: absolute; 
+    bottom: 20px;
+    color: #cccccc;
+    z-index: 2;
+}
