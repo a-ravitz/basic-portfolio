@@ -22,8 +22,8 @@ header {
     overflow: hidden;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-
 }
+
 .name {
     float: left;
     width: 26%;
@@ -37,8 +37,8 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     font-weight: 550;
-
 }
+
 #name {
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: relative;
@@ -51,7 +51,7 @@ h1 {
     padding-bottom: 24px;
 }
 
-/* all the information for the list of links  */
+/* all the information for the navigation   */
 
 .links {
     float: left;
@@ -94,7 +94,9 @@ a:active {
     text-decoration: none;
     color: #777777;
 }
-/* main paragraph on the about page */
+
+/* code for the main body of each of the three pages  */
+
 .main {
     margin: auto;
     text-align: left;
@@ -110,11 +112,12 @@ a:active {
     color: #777777;
     line-height: 1.5;
 }
-/* this is the line under the h1 text in the main section */
+
 hr {
     height: 1px;
     background-color: #cccccc;
 }
+
 img {
     float: left;
     height: 150px;
@@ -128,6 +131,8 @@ img {
     color: #4aaaaf;
 }
 
+/* code for the footer */
+
 footer {
     position: fixed;
     left: 0;
@@ -138,8 +143,8 @@ footer {
     border-top: solid;
     border-top-color: #4aaaaf;
     border-width: 5px;
-  
 }
+
 .copyright {
     position: fixed;
     left: 50%;
@@ -149,6 +154,7 @@ footer {
     color: #cccccc;
 }
 
+/* code for the form on the contact page  */
 textarea {
     height: 100px;
     width: 955px;
