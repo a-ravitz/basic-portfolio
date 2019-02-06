@@ -141,7 +141,7 @@ footer {
     width: 100%;
     border-top: solid;
     border-top-color: #4aaaaf;
-    border-width: 5px;
+    border-top-width: 8px;
     /* z-index: 3; */
 }
 
